@@ -1,0 +1,30 @@
+.option-item {
+  background-color: #ebf3ff;
+  border-radius: 8px;
+  width: 300px;
+  height: 44px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 10px;
+  cursor: pointer;
+}
+
+.option-item span {
+  color: #334155;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .option-item {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+}
